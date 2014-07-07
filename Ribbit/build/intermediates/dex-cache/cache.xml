@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/madgrid/Development/android/RibbitV3/Ribbit/build/intermediates/pre-dexed/debug/Parse-1.3.9-b5a9a4b318226a7c144175d218116f16ba471c6d.jar"
+        jar="/Users/madgrid/Development/android/RibbitV3/Ribbit/libs/Parse-1.3.9.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="077b21d82e098a5d95e46b1868c664a23ada163a"/>
+    <item
+        dex="/Users/madgrid/Development/android/RibbitV3/Ribbit/build/intermediates/pre-dexed/debug/android-support-v4-02f7916c9f03440164d75054bff95014c5fd0bfe.jar"
+        jar="/Users/madgrid/Development/android/RibbitV3/Ribbit/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4"/>
+    <item
+        dex="/Users/madgrid/Development/android/RibbitV3/Ribbit/build/intermediates/pre-dexed/debug/Parse-1.5.1-8ebde1c5d5c59c4fac27f0a8d2507e0f6e2335b3.jar"
+        jar="/Users/madgrid/Development/android/RibbitV3/Ribbit/libs/Parse-1.5.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3d645417e7780d44f32e29a3ec6b729b75aef26c"/>
+
+</pre-dex-items>
