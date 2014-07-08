@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- From: file:/Users/madgrid/Development/android/RibbitV3/Ribbit/res/values/strings.xml -->
+    <eat-comment />
+
+    <string-array name="camera_choices">
+        <item>Take Picture</item>
+        <item>Take Video</item>
+        <item>Choose Picture</item>
+        <item>Choose Video</item>
+    </string-array>
     <!-- From: file:/Users/madgrid/Development/android/RibbitV3/Ribbit/res/values/dimens.xml -->
     <eat-comment />
 
@@ -14,11 +23,15 @@
     <string name="email_hint">Email</string>
     <string name="empty_friends_label">Add friends to begin!</string>
     <string name="empty_inbox_label">No new messages!</string>
+    <string name="error_file_size_too_large">The Selected file is too large! Select a new file.</string>
+    <string name="error_opening_file">There was a problem with a the selected file</string>
     <string name="error_title">We\'re sorry!</string>
+    <string name="general_error">Sorry, there was an error!</string>
     <string name="hello_world">Hello world!</string>
     <string name="login_button_label">Login</string>
     <string name="login_error_message">Please make sure you enter a username and password!</string>
     <string name="login_error_title">Oops!</string>
+    <string name="menu_camera_label">Camera</string>
     <string name="menu_edit_friends_label">Edit Friends</string>
     <string name="menu_logout_label">Logout</string>
     <string name="password_hint">Password</string>
@@ -26,12 +39,14 @@
     <string name="sign_up_text">Sign Up!</string>
     <string name="signup_error_message">Please make sure you enter a username, password, and email address!</string>
     <string name="signup_error_title">Oops!</string>
+    <string name="storage_error_message">There was a problem accessing your device\'s external storage.</string>
     <string name="title_activity_edit_friends">Edit Friends</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_sign_up">SignUpActivity</string>
     <string name="title_section1">Inbox</string>
     <string name="title_section2">Friends</string>
     <string name="username_hint">Username</string>
+    <string name="video_file_size_warning">This selected video must be less than 10 MB</string>
     <!-- From: file:/Users/madgrid/Development/android/RibbitV3/Ribbit/res/values/styles.xml -->
     <eat-comment />
 
