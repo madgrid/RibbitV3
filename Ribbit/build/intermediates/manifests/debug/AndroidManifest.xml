@@ -52,6 +52,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.teamtreehouse.ribbit.MainActivity" />
         </activity>
+        <activity
+            android:name="com.teamtreehouse.ribbit.RecipientsActivity"
+            android:label="@string/title_activity_recipients"
+            android:parentActivityName="com.teamtreehouse.ribbit.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.teamtreehouse.ribbit.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

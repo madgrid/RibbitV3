@@ -11,16 +11,19 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-feature android:name="android.hardware.camera" android:required="true" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
 
     <application
-        android:name="com.teamtreehouse.ribbit.RibbitApplication"
+        android:name=".RibbitApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.teamtreehouse.ribbit.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -30,20 +33,30 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.teamtreehouse.ribbit.LoginActivity"
+            android:name=".LoginActivity"
             android:label="@string/title_activity_login"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.teamtreehouse.ribbit.SignUpActivity"
+            android:name=".SignUpActivity"
             android:label="@string/title_activity_sign_up"
-            android:parentActivityName="com.teamtreehouse.ribbit.LoginActivity"
+            android:parentActivityName=".LoginActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.teamtreehouse.ribbit.EditFriendsActivity"
+            android:name=".EditFriendsActivity"
             android:label="@string/title_activity_edit_friends"
-            android:parentActivityName="com.teamtreehouse.ribbit.MainActivity" android:screenOrientation="portrait">
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.teamtreehouse.ribbit.MainActivity" />
+        </activity>
+        <activity
+            android:name=".RecipientsActivity"
+            android:label="@string/title_activity_recipients"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.teamtreehouse.ribbit.MainActivity" />
