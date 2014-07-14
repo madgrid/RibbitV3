@@ -14,10 +14,16 @@
         revision="19.1.0"
         sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4"/>
     <item
-        dex="/Users/madgrid/Development/android/RibbitV3/Ribbit/build/intermediates/pre-dexed/debug/Parse-1.5.1-8ebde1c5d5c59c4fac27f0a8d2507e0f6e2335b3.jar"
-        jar="/Users/madgrid/Development/android/RibbitV3/Ribbit/libs/Parse-1.5.1.jar"
+        dex="/Users/madgrid/Development/android/RibbitV3/Ribbit/build/intermediates/pre-dexed/debug/picasso-2.1.1-081267b39838859d48a441863bcb628dad78b8f7.jar"
+        jar="/Users/madgrid/Development/android/RibbitV3/Ribbit/libs/picasso-2.1.1.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="3d645417e7780d44f32e29a3ec6b729b75aef26c"/>
+        sha1="ab19bfb23f641f189b6dca9a4d393f8dc291103a"/>
+    <item
+        dex="/Users/madgrid/Development/android/RibbitV3/Ribbit/build/intermediates/pre-dexed/debug/commons-io-2.4-3ec6341af4c39e16edc117e9167047c195d4591f.jar"
+        jar="/Users/madgrid/Development/android/RibbitV3/Ribbit/libs/commons-io-2.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad"/>
 
 </pre-dex-items>

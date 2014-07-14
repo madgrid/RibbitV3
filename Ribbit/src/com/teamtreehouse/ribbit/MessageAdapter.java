@@ -1,7 +1,5 @@
 package com.teamtreehouse.ribbit;
 
-import java.util.List;
-
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +9,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.parse.ParseObject;
+
+import java.util.List;
 
 public class MessageAdapter extends ArrayAdapter<ParseObject> {
 	
@@ -32,6 +32,7 @@ public class MessageAdapter extends ArrayAdapter<ParseObject> {
 			holder = new ViewHolder();
 			holder.iconImageView = (ImageView)convertView.findViewById(R.id.messageIcon);
 			holder.nameLabel = (TextView)convertView.findViewById(R.id.senderLabel);
+            convertView.setTag(holder);
 		}
 		else {
 			holder = (ViewHolder)convertView.getTag();
@@ -53,7 +54,14 @@ public class MessageAdapter extends ArrayAdapter<ParseObject> {
 	private static class ViewHolder {
 		ImageView iconImageView;
 		TextView nameLabel;
+
 	}
+
+    public void refill(List<ParseObject> messages) {
+        mMessages.clear();
+        mMessages.addAll(messages);
+        notifyDataSetChanged();
+    }
 }
 
 
